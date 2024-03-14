@@ -10,14 +10,14 @@ const Header = () => {
 
     return (
         <nav className='shadow-sm '>
-            <div className='md:flex items-center justify-between  py-2 max-w-screen-lg mx-auto px-3 md:px-0'>
+            <div className='md:flex items-center justify-between  py-3 max-w-screen-lg mx-auto px-3 md:px-0'>
 
                 <div className='flex items-center justify-between gap-x-2'>
                     <div className='flex items-center gap-2'>
                         <div className='md:hidden text-2xl z-50 cursor-pointer' onClick={() => setOpen(!open)}>
                             <ion-icon name={`${open ? 'close' : 'menu'}`} ></ion-icon>
                         </div>
-                        <span className='flex'> <span className='p-0 m-0 text-red-500'><FaCaretDown /></span> <span className='text-2xl font-bold leading-6 text-[#000000]'>Swift <span className='text-red-500'>_</span> Cart</span></span>
+                        <span className='flex'> <span className='p-0 m-0 text-red-500'><FaCaretDown /></span> <span className='md:text-2xl text-xl font-bold leading-6 text-[#000000]'>Swift <span className='text-red-500'>_</span> Cart</span></span>
                     </div>
 
                     <div className='flex md:hidden space-x-2'>
@@ -61,7 +61,7 @@ const Header = () => {
 
                 {/*mobile device*/}
                 <ul className={`
-                md:hidden bg-gray-500 absolute w-3/4 h-full bottom-0 py-12 pl-4 duration-500 ${open ? 'left-0' : 'left-[-100%]'}
+                md:hidden bg-gray-500 z-10 absolute w-3/4 h-full bottom-0 py-12 pl-4 duration-500 ${open ? 'left-0' : 'left-[-100%]'}
                 
                 `}>
                     <li className="flex flex-col">
