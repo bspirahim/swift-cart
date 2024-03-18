@@ -22,18 +22,26 @@ const ThisMonthProduct = () => {
                     </div>
                 </div>
             </div>
-            <div className="grid grid-cols-4 gap-4">
+            <div className='grid md:grid-cols-4 gap-4'>
                 <div className="card w-auto h-full border-0 rounded relative mt-7">
-                    <div className="bg-[#F5F5F5] p-5 rounded  ">
-                        <figure className=' h-[180px] m-auto p-0'>
+                    <div className="group relative bg-[#F5F5F5] p-5 rounded  ">
+                        <figure className=' h-[180px] m-auto   p-0'>
                             <Image
-                                className=' object-fit px-2 '
-                                src="/images/product/Frame1.png"
+                                className=' object-fit px-2  '
+                                src="/images/product/gamepad.png"
                                 alt="card-image"
-                                width={100}
-                                height={100}
+                                width={170}
+                                height={130}
                             />
                         </figure>
+
+                        <div>
+                            <button className="w-full transition transform  
+             translate-x-8 ease-in-out invisible  
+            absolute group-hover:visible right-8 py-1 bottom-0
+             bg-[#000000] rounded-b font-medium text-base duration-1000
+            text-white group-hover:translate-y-0">Add To Cart</button>
+                        </div>
                     </div>
                     <div>
                         <div className="absolute top-0 end-0 m-3 rounded-full">
@@ -64,16 +72,24 @@ const ThisMonthProduct = () => {
                     </div>
                 </div>
                 <div className="card w-auto h-full border-0 rounded relative mt-7">
-                    <div className="bg-[#F5F5F5] p-5 rounded  ">
+                    <div className="group relative bg-[#F5F5F5] p-5 rounded  ">
                         <figure className=' h-[180px] m-auto   p-0'>
                             <Image
-                                className=' object-fit px-2 '
-                                src="/images/product/bag.png"
+                                className=' object-fit px-2  '
+                                src="/images/product/gamepad.png"
                                 alt="card-image"
-                                width={100}
-                                height={100}
+                                width={170}
+                                height={130}
                             />
                         </figure>
+
+                        <div>
+                            <button className="w-full transition transform  
+             translate-x-8 ease-in-out invisible  
+            absolute group-hover:visible right-8 py-1 bottom-0
+             bg-[#000000] rounded-b font-medium text-base duration-1000
+            text-white group-hover:translate-y-0">Add To Cart</button>
+                        </div>
                     </div>
                     <div>
                         <div className="absolute top-0 end-0 m-3 rounded-full">
@@ -104,16 +120,24 @@ const ThisMonthProduct = () => {
                     </div>
                 </div>
                 <div className="card w-auto h-full border-0 rounded relative mt-7">
-                    <div className="bg-[#F5F5F5] p-5 rounded  ">
+                    <div className="group relative bg-[#F5F5F5] p-5 rounded  ">
                         <figure className=' h-[180px] m-auto   p-0'>
                             <Image
-                                className=' object-fit px-2 '
-                                src="/images/product/Frame2.png"
+                                className=' object-fit px-2  '
+                                src="/images/product/gamepad.png"
                                 alt="card-image"
-                                width={100}
-                                height={100}
+                                width={170}
+                                height={130}
                             />
                         </figure>
+
+                        <div>
+                            <button className="w-full transition transform  
+             translate-x-8 ease-in-out invisible  
+            absolute group-hover:visible right-8 py-1 bottom-0
+             bg-[#000000] rounded-b font-medium text-base duration-1000
+            text-white group-hover:translate-y-0">Add To Cart</button>
+                        </div>
                     </div>
                     <div>
                         <div className="absolute top-0 end-0 m-3 rounded-full">
@@ -144,16 +168,24 @@ const ThisMonthProduct = () => {
                     </div>
                 </div>
                 <div className="card w-auto h-full border-0 rounded relative mt-7">
-                    <div className="bg-[#F5F5F5] p-5 rounded  ">
+                    <div className="group relative bg-[#F5F5F5] p-5 rounded  ">
                         <figure className=' h-[180px] m-auto   p-0'>
                             <Image
-                                className=' object-fit px-2 '
-                                src="/images/product/Frame3.png"
+                                className=' object-fit px-2  '
+                                src="/images/product/gamepad.png"
                                 alt="card-image"
-                                width={100}
-                                height={100}
+                                width={170}
+                                height={130}
                             />
                         </figure>
+
+                        <div>
+                            <button className="w-full transition transform  
+             translate-x-8 ease-in-out invisible  
+            absolute group-hover:visible right-8 py-1 bottom-0
+             bg-[#000000] rounded-b font-medium text-base duration-1000
+            text-white group-hover:translate-y-0">Add To Cart</button>
+                        </div>
                     </div>
                     <div>
                         <div className="absolute top-0 end-0 m-3 rounded-full">
