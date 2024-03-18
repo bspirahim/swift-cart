@@ -3,6 +3,7 @@ import Banner from "@/components/Banner/Banner";
 import Categories from "@/components/Categories/Categories";
 import FlashSales from "@/components/FlashSales/FlashSales";
 import Header from "@/components/Header/Header";
+import ThisMonthProduct from "@/components/ThisMonthProduct/ThisMonthProduct";
 import Image from "next/image";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Banner></Banner>
       <FlashSales></FlashSales>
       <Categories></Categories>
+      <ThisMonthProduct></ThisMonthProduct>
     </main>
   );
 }
