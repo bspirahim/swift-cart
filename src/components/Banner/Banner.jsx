@@ -68,7 +68,7 @@ const Banner = () => {
                                 <div className="grid md:grid-cols-2 md:mt-7 md:ms-7 bg-[rgb(0,0,0)] w-full md:h-80">
                                     <div className='text-[#FAFAFA] m-auto md:py-0 py-7 text-center md:text-start'>
                                         <div className='flex items-center justify-center md:justify-start space-x-2 '>
-                                            <Image width={10} height={12} className='md:w-10 md:h-12 w-5 h-6' src="/images/banner/apple.png" alt="" />
+                                            <Image width={100} height={100} className='md:w-10 md:h-12 w-5 h-6' src="/images/banner/apple.png" alt="" />
                                             <p className='font-normal text-base leading-6 '>iPhone 14 Series</p>
                                         </div>
                                         <h1 className='tracking-normal leading-normal font-semibold text-5xl'>Up to 10% <br /> off Voucher</h1>
@@ -78,7 +78,7 @@ const Banner = () => {
                                         </div>
                                     </div>
                                     <div className=''>
-                                        <Image width={100} height={100}  className='w-full m-auto text-[#FAFAFA]' src="/images/banner/banner.png" alt="banner-image" />
+                                        <Image width={500} height={500}  className='w-full m-auto text-[#FAFAFA]' src="/images/banner/banner.png" alt="banner-image" />
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -86,7 +86,7 @@ const Banner = () => {
                                 <div className="grid md:grid-cols-2 md:mt-7 md:ms-7 bg-[rgb(0,0,0)] w-full md:h-80">
                                     <div className='text-[#FAFAFA] m-auto md:py-0 py-7 text-center md:text-start'>
                                         <div className='flex items-center justify-center md:justify-start space-x-2 '>
-                                            <Image width={10} height={12}  className='md:w-10 md:h-12 w-5 h-6' src="/images/banner/apple.png" alt="banner-image" />
+                                            <Image width={100} height={100}  className='md:w-10 md:h-12 w-5 h-6' src="/images/banner/apple.png" alt="banner-image" />
                                             <p className='font-normal text-base leading-6 '>iPhone 14 Series</p>
                                         </div>
                                         <h1 className='tracking-normal leading-normal font-semibold text-5xl'>Up to 10% <br /> off Voucher</h1>
@@ -96,7 +96,7 @@ const Banner = () => {
                                         </div>
                                     </div>
                                     <div className=''>
-                                        <Image width={100} height={100}  className='w-full m-auto text-[#FAFAFA]' src="/images/banner/banner.png" alt="" />
+                                        <Image width={500} height={500}  className='w-full m-auto text-[#FAFAFA]' src="/images/banner/banner.png" alt="" />
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -104,7 +104,7 @@ const Banner = () => {
                                 <div className="grid md:grid-cols-2 md:mt-7 md:ms-7 bg-[rgb(0,0,0)] w-full md:h-80">
                                     <div className='text-[#FAFAFA] m-auto md:py-0 py-7 text-center md:text-start'>
                                         <div className='flex items-center justify-center md:justify-start space-x-2 '>
-                                            <Image width={10} height={12}  className='md:w-10 md:h-12 w-5 h-6' src="/images/banner/apple.png" alt="" />
+                                            <Image width={500} height={500}  className='md:w-10 md:h-12 w-5 h-6' src="/images/banner/apple.png" alt="" />
                                             <p className='font-normal text-base leading-6 '>iPhone 14 Series</p>
                                         </div>
                                         <h1 className='tracking-normal leading-normal font-semibold text-5xl'>Up to 10% <br /> off Voucher</h1>
