@@ -2,6 +2,7 @@
 import Banner from "@/components/Banner/Banner";
 import Categories from "@/components/Categories/Categories";
 import EnhanceProduct from "@/components/EnhanceProduct/EnhanceProduct";
+import ExploreOurProduct from "@/components/ExploreOurProduct/ExploreOurProduct";
 import FlashSales from "@/components/FlashSales/FlashSales";
 import Header from "@/components/Header/Header";
 import ThisMonthProduct from "@/components/ThisMonthProduct/ThisMonthProduct";
@@ -16,6 +17,7 @@ export default function Home() {
       <Categories></Categories>
       <ThisMonthProduct></ThisMonthProduct>
       <EnhanceProduct></EnhanceProduct>
+      <ExploreOurProduct></ExploreOurProduct>
     </main>
   );
 }
