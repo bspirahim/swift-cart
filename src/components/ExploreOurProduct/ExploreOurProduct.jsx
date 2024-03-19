@@ -492,7 +492,6 @@ const ExploreOurProduct = () => {
             </div>
 
             <div style={{ fontFamily: 'Poppins' }} className="text-center my-10"><button className="bg-[#DB4444] hover:bg-[#ef3232] py-4 px-12 rounded text-[#FAFAFA] text-base font-medium">View All Products</button></div>
-            <div className="w-full border-[0.5px] border-[#000000]/30"></div>
         </div>
 
     );
