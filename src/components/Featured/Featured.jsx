@@ -15,22 +15,51 @@ const Featured = () => {
                     </div>
                 </div>
             </div>
-            {/* <div className="grid grid-rows-3 grid-flow-col gap-4">
-                <div className="row-span-3 bg-[#000000] h-[600px]">
-                    <Image width={500} height={500} className='w-full h-[511px] text-[#FAFAFA]' src="/images/product/featured1.png" alt="banner-image" />
-                </div>
-                <div className="col-span-2 bg-[#000000] w-full">
-                    <Image width={500} height={500} className='w-full text-[#FAFAFA]' src="/images/product/featured2.png" alt="banner-image" />
-                </div>
-                <div className="row-span-2 col-span-1 bg-[#000000]  w-full h-[290px]">
-                    <Image width={500} height={500} className='w-full h[200px] px-5 py-2 text-[#FAFAFA]' src="/images/product/featured3.png" alt="banner-image" />
-                </div>
-                <div className="row-span-2 col-span-1 w-full h-[284px] bg-[#000000] ...">
-                    <Image width={500} height={500} className='w-full h[222px] p-5 text-[#FAFAFA]' src="/images/product/featured4.png" alt="banner-image" />
-                </div>
-            </div> */}
+            <div className="grid md:grid-cols-2 gap-4 my-5">
+                <div className='relative'>
+                    <Image width={500} height={500} className='w-full text-[#FAFAFA]' src="/images/product/frame1.jpg" alt="banner-image" />
+                    <div className='absolute bottom-7 left-7 '>
+                        <p className='text-[#FAFAFA] text-2xl font-semibold'>PlayStation 5</p>
+                        <p className='font-normal text-sm py-1.5 text-[#FAFAFA]'>Black and White version of the PS5 <br /> coming out on sale.</p>
 
-            <div className='md:flex justify-around items-center'>
+                        <button className=' underline underline-offset-4 text-base font-medium text-[#FAFAFA]'>Shop Now</button>
+                    </div>
+                </div>
+                <div className='grid grid-rows-2 gap-3'>
+                    <div className='relative'>
+                        <Image width={500} height={500} className='w-full text-[#FAFAFA]' src="/images/product/frame2.png" alt="banner-image" />
+                        <div className='absolute bottom-7 left-7 '>
+                            <p className='text-[#FAFAFA] text-2xl font-semibold'>Women’s Collections</p>
+                            <p className='font-normal text-sm py-1.5 text-[#FAFAFA]'>Featured woman collections that <br /> give you another vibe.</p>
+
+                            <button className=' underline underline-offset-4 text-base font-medium text-[#FAFAFA]'>Shop Now</button>
+                        </div>
+                    </div>
+                    <div className='grid grid-cols-2 gap-4'>
+                        <div className='relative'>
+                            <Image width={500} height={500} className='w-full text-[#FAFAFA]' src="/images/product/frame3.png" alt="banner-image" />
+                            <div className='absolute bottom-7 left-7 '>
+                                <p className='text-[#FAFAFA] text-2xl font-semibold'>Speakers</p>
+                                <p className='font-normal text-sm py-1 text-[#FAFAFA]'>Amazon wireless speakers</p>
+
+                                <button className=' underline underline-offset-4 text-base font-medium text-[#FAFAFA]'>Shop Now</button>
+                            </div>
+                        </div>
+                        <div className='relative'>
+                            <Image width={500} height={500} className='w-full text-[#FAFAFA]' src="/images/product/frame4.png" alt="banner-image" />
+                            <div className='absolute bottom-7 left-7 '>
+                                <p className='text-[#FAFAFA] text-2xl font-semibold'>Perfume</p>
+                                <p className='font-normal text-sm py-1 text-[#FAFAFA]'>GUCCI INTENSE OUD EDP</p>
+
+                                <button className=' underline underline-offset-4 text-base font-medium text-[#FAFAFA]'>Shop Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div className='md:flex justify-around items-center md:my-20'>
                 <div className='text-center '>
                     <div className='flex justify-center items-center '>
                         <svg className='m-auto' width="81" height="80" viewBox="0 0 81 80" fill="none" xmlns="http://www.w3.org/2000/svg">

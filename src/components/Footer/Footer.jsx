@@ -1,15 +1,15 @@
 import Image from 'next/image';
 import React from 'react';
-import { FaCaretDown } from 'react-icons/fa';
+import { FaCaretDown, FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
     return (
         <div className='bg-[#000000]'>
             <footer className="footer py-10  text-white max-w-screen-lg mx-auto">
                 <aside>
-                    <h1 className='text-2xl font-semibold'>Swift-Cart</h1>
-                    <p>Subscribe</p>
-                    <p>Get 10% off Your first Order</p>
+                    <h1 className='text-2xl font-bold leading-6'>Swift-Cart</h1>
+                    <p className='text-xl font-medium text-[#FAFAFA]'>Subscribe</p>
+                    <p className='text-base font-normal text-[#FAFAFA]'>Get 10% off Your first Order</p>
                     <div className="">
                         <div className="relative">
 
@@ -23,29 +23,29 @@ const Footer = () => {
                     </div>
                 </aside>
                 <nav>
-                    <h6 className="footer-title">Support</h6>
-                    <p className="link link-hover">111 Bijoy sarani, Dhaka,<br />  DH 1515, Bangladesh.</p>
-                    <p className="link link-hover">swiftcart@gmail.com</p>
-                    <p className="link link-hover">+880 1716289767</p>
+                    <h6 className=" text-xl font-medium text-[#FAFAFA]">Support</h6>
+                    <p className="className='text-base font-normal text-[#FAFAFA]">111 Bijoy sarani, Dhaka,<br />  DH 1515, Bangladesh.</p>
+                    <p className="className='text-base font-normal text-[#FAFAFA]">swiftcart@gmail.com</p>
+                    <p className="className='text-base font-normal text-[#FAFAFA]">+880 1716289767</p>
                 </nav>
                 <nav>
-                    <h6 className="footer-title">Account</h6>
-                    <a className="link link-hover">My Account</a>
-                    <a className="link link-hover">Login / Register</a>
-                    <a className="link link-hover">Cart</a>
-                    <a className="link link-hover">Wishlist</a>
-                    <a className="link link-hover">Shop</a>
+                    <h6 className=" text-xl font-medium text-[#FAFAFA]">Account</h6>
+                    <a className="className='text-base font-normal text-[#FAFAFA]">My Account</a>
+                    <a className="className='text-base font-normal text-[#FAFAFA]">Login / Register</a>
+                    <a className="className='text-base font-normal text-[#FAFAFA]">Cart</a>
+                    <a className="className='text-base font-normal text-[#FAFAFA]">Wishlist</a>
+                    <a className="className='text-base font-normal text-[#FAFAFA]">Shop</a>
                 </nav>
                 <nav>
-                    <h6 className="footer-title">Quick Link</h6>
-                    <a className="link link-hover">Privacy Policy</a>
-                    <a className="link link-hover">Terms Of Use</a>
-                    <a className="link link-hover">FAQ</a>
-                    <a className="link link-hover">Contact</a>
+                    <h6 className=" text-xl font-medium text-[#FAFAFA]">Quick Link</h6>
+                    <a className="className='text-base font-normal text-[#FAFAFA]">Privacy Policy</a>
+                    <a className="className='text-base font-normal text-[#FAFAFA]">Terms Of Use</a>
+                    <a className="className='text-base font-normal text-[#FAFAFA]">FAQ</a>
+                    <a className="className='text-base font-normal text-[#FAFAFA]">Contact</a>
                 </nav>
                 <nav>
-                    <h6 className="footer-title">Download App</h6>
-                    <small className="link link-hover">Save $3 with App New User Only</small>
+                    <h6 className=" text-xl font-medium text-[#FAFAFA]">Download App</h6>
+                    <small className="text-xs font-medium text-[#FAFAFA]">Save $3 with App New User Only</small>
                     <div className='flex items-center gap-3'>
                         <div>
                             <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
@@ -72,6 +72,14 @@ const Footer = () => {
                                 height={1000}
                             />
                         </div>
+
+                    </div>
+                    <div className='flex items-center justify-between space-x-6 mt-1'>
+                    <FaFacebookF className='text-xl cursor-pointer' />
+                    <FaTwitter className='text-xl cursor-pointer' />
+                    <FaInstagram className='text-xl cursor-pointer' />
+                    <FaLinkedinIn className='text-xl cursor-pointer' />
+
 
                     </div>
                 </nav>
