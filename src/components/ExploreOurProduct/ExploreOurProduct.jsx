@@ -19,7 +19,7 @@ const ExploreOurProduct = () => {
     const [prevEl, setPrevEl] = useState(null)
     const [nextEl, setNextEl] = useState(null)
     return (
-        <div className='max-w-screen-lg mx-auto my-12'>
+        <div className='max-w-screen-lg mx-auto my-16'>
             <div className=''>
                 <div className='flex items-center gap-4'>
                     <div className='w-[20px] h-[40px] bg-[#DB4444] rounded'></div>
@@ -39,8 +39,23 @@ const ExploreOurProduct = () => {
 
             <>
                 <Swiper
-                    slidesPerView={4}
-                    spaceBetween={30}
+                     breakpoints={{
+                        576: {
+                          width: 576,
+                          slidesPerView: 1,
+                          spaceBetween:20
+                        },
+                        768: {
+                          width: 768,
+                          slidesPerView: 2,
+                          spaceBetween:20
+                        },
+                        1024: {
+                          width: 1024,
+                          slidesPerView: 4,
+                          spaceBetween:20
+                        },
+                      }}
                     navigation={{
                         prevEl,
                         nextEl

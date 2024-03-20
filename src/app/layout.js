@@ -2,6 +2,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
+import Header from "@/components/Header/Header";
+import Footer from "@/components/Footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,7 +16,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="light">
       <body className={inter.className}>
+        <Header></Header>
         {children}
+        <Footer></Footer>
         <Script src="https://unpkg.com/ionicons@latest/dist/ionicons.js" />
       </body>
     </html>

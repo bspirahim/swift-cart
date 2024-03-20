@@ -3,7 +3,7 @@ import React from 'react';
 
 const EnhanceProduct = () => {
     return (
-        <div className='max-w-screen-lg mx-auto my-12'>
+        <div className='max-w-screen-lg mx-auto my-16'>
             <div className='bg-[#000000] grid md:grid-cols-2 gap-4'>
                 <div className='text-[#FAFAFA] m-auto md:py-10 py-7 text-center md:text-start'>
                     <div className='flex items-center justify-center md:justify-start space-x-2 '>

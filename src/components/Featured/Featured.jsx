@@ -59,7 +59,7 @@ const Featured = () => {
 
             </div>
 
-            <div className='md:flex justify-around items-center md:my-20'>
+            <div className='md:flex justify-around items-center md:mt-32 mb-24'>
                 <div className='text-center '>
                     <div className='flex justify-center items-center '>
                         <svg className='m-auto' width="81" height="80" viewBox="0 0 81 80" fill="none" xmlns="http://www.w3.org/2000/svg">

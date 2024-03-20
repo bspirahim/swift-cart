@@ -41,8 +41,23 @@ const Categories = () => {
 
             <>
                 <Swiper
-                    slidesPerView={6}
-                    spaceBetween={30}
+                    breakpoints={{
+                        576: {
+                          width: 576,
+                          slidesPerView: 1,
+                          spaceBetween:20
+                        },
+                        768: {
+                          width: 768,
+                          slidesPerView: 2,
+                          spaceBetween:20
+                        },
+                        1024: {
+                          width: 1024,
+                          slidesPerView: 6,
+                          spaceBetween:20
+                        },
+                      }}
                     navigation={{
                         prevEl,
                         nextEl
@@ -153,7 +168,7 @@ const Categories = () => {
 
                 </Swiper>
             </>
-            <div className="w-full border border-[#000000]/30"></div>
+            <div className="w-full border border-[#000000]/30 mt-4"></div>
         </div>
 
     );

@@ -71,8 +71,24 @@ const FlashSales = () => {
 
             <>
                 <Swiper
-                    slidesPerView={4}
-                    spaceBetween={30}
+                  breakpoints={{
+                    576: {
+                      width: 576,
+                      slidesPerView: 2,
+                      spaceBetween:20
+                    },
+                    768: {
+                      width: 768,
+                      slidesPerView: 1,
+                      spaceBetween:20
+                    },
+                    1024: {
+                      width: 1024,
+                      slidesPerView: 4,
+                      spaceBetween:20
+                    },
+                  }}
+                    
                     navigation={{
                         prevEl,
                         nextEl
