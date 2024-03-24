@@ -58,14 +58,15 @@ const Header = () => {
                         </form>
                     </div>
                     <div className="flex items-center space-x-2">
+                        <div className='md:flex hidden md:space-x-2'>
+                            <Link href='/wishlist' className="text-xl cursor-pointer"><ion-icon name="heart-outline" /></Link>
+                            <Link href='/cart' className="text-xl cursor-pointer"><ion-icon name="cart-outline" /></Link>
+                        </div>
                         {!session ? (
                             <></>
                         ) : (
                             <>
-                                <div className='md:flex hidden md:space-x-2'>
-                                    <span className="text-xl"><ion-icon name="heart-outline" /></span>
-                                    <span className="text-xl"><ion-icon name="cart-outline" /></span>
-                                </div>
+
                                 <div className="space-x-2">
 
                                     <div className="relative inline-block text-left">
