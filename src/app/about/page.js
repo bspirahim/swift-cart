@@ -10,6 +10,8 @@ import 'swiper/css/pagination';
 import { Navigation } from 'swiper/modules';
 import { Pagination } from 'swiper/modules';
 import { Swiper as SwiperComponent } from 'swiper/react';
+import { FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
+import Services from '@/components/Services/Services';
 
 
 
@@ -22,22 +24,22 @@ const AboutPage = () => {
                     <div className='float-right max-w-lg p-4 '>
                         <h1 className='text-5xl mb-5 font-semibold text-[#000000]'>Our Story</h1>
                         <div>
-                        <p className='text-base font-normal mb-3 text-[#000000]'>Launced in 2015, Exclusive is South Asia’s premier online shopping makterplace with an active presense in Bangladesh. Supported by wide range of tailored marketing, data and service solutions, Exclusive has 10,500 sallers and 300 brands and serves 3 millioons customers across the region. </p>
+                            <p className='text-base font-normal mb-3 text-[#000000]'>Launced in 2015, Exclusive is South Asia’s premier online shopping makterplace with an active presense in Bangladesh. Supported by wide range of tailored marketing, data and service solutions, Exclusive has 10,500 sallers and 300 brands and serves 3 millioons customers across the region. </p>
                         </div>
                         <div>
-                        <p className='text-base font-normal text-[#000000]pt-3'>Exclusive has more than 1 Million products to offer, growing at a very fast. Exclusive offers a diverse assotment in categories ranging from consumer.</p>
+                            <p className='text-base font-normal text-[#000000]pt-3'>Exclusive has more than 1 Million products to offer, growing at a very fast. Exclusive offers a diverse assotment in categories ranging from consumer.</p>
                         </div>
                     </div>
                 </div>
                 <div className=''>
                     <div className='max-w-3xl'>
-                    <Image className='float-right'
-                        src="/images/product/about-img.png"
-                        alt="Picture of the author"
-                        width={500}
-                        height={500}
-                        priority
-                    />
+                        <Image className='float-right'
+                            src="/images/product/about-img.png"
+                            alt="Picture of the author"
+                            width={500}
+                            height={500}
+                            priority
+                        />
                     </div>
                 </div>
             </section>
@@ -109,7 +111,72 @@ const AboutPage = () => {
                 </ScrollTrigger>
             </section>
             <section className='max-w-screen-lg mx-auto mt-12 pt-10'>
-                
+                <div className='grid md:grid-cols-3 gap-6'>
+                    <div className="card card-compact rounded">
+                        <figure className=''>
+                            <Image
+                                className='  '
+                                src="/images/person/image-1.png"
+                                alt="card-image"
+                                width={500}
+                                height={500}
+                            />
+                        </figure>
+                        <div className=" py-2">
+                            <h2 className="card-title text-3xl leading-10 font-medium text-[#000000]">Tom Cruise</h2>
+                            <p className='text-base font-normal text-[#000000]'>Founder & Chairman</p>
+                            <div className='flex items-center gap-x-4 mt-2'>
+                                <FaTwitter className='text-lg cursor-pointer' />
+                                <FaInstagram className='text-lg cursor-pointer' />
+                                <FaLinkedinIn className='text-lg cursor-pointer' />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="card card-compact rounded">
+                        <figure className=''>
+                            <Image
+                                className='  '
+                                src="/images/person/image-2.png"
+                                alt="card-image"
+                                width={500}
+                                height={500}
+                            />
+                        </figure>
+                        <div className=" py-2">
+                            <h2 className="card-title text-3xl leading-10 font-medium text-[#000000]">Emma Watson</h2>
+                            <p className='text-base font-normal text-[#000000]'>Managing Director</p>
+                            <div className='flex items-center gap-x-4 mt-2'>
+                                <FaTwitter className='text-lg cursor-pointer' />
+                                <FaInstagram className='text-lg cursor-pointer' />
+                                <FaLinkedinIn className='text-lg cursor-pointer' />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="card card-compact rounded">
+                        <figure className=''>
+                            <Image
+                                className='  '
+                                src="/images/person/image-3.png"
+                                alt="card-image"
+                                width={500}
+                                height={500}
+                            />
+                        </figure>
+                        <div className=" py-2">
+                            <h2 className="card-title text-3xl leading-10 font-medium text-[#000000]">Will Smith</h2>
+                            <p className='text-base font-normal text-[#000000]'>Product Designer</p>
+                            <div className='flex items-center gap-x-4 mt-2'>
+                                <FaTwitter className='text-lg cursor-pointer' />
+                                <FaInstagram className='text-lg cursor-pointer' />
+                                <FaLinkedinIn className='text-lg cursor-pointer' />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <Services></Services>
             </section>
 
         </div>
