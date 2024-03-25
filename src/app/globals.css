@@ -63,6 +63,9 @@ body {
     line-height: 24px;
     margin: 5px 0;
 }
+.form-checkbox{
+    color: #DB4444 !important;
+}
 
 @media screen and (max-width: 576px) {
     .primary-btn {

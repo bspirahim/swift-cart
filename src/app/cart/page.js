@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const CartPage = () => {
@@ -89,9 +90,9 @@ const CartPage = () => {
                                 <p className='text-base font-normal text-[#000000]'>Total:</p>
                                 <p className='text-base font-normal text-[#000000]'>$1750</p>
                             </div>
-                            <div className='text-center mt-5'>
+                            <Link href='/checkout' className='block text-center mt-5'>
                                 <button className='primary-btn'>Procees to checkout</button>
-                            </div>
+                            </Link>
                         </div>
                     </div>
                 </div>
