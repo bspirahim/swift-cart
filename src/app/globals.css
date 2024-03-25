@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: auto;
@@ -15,11 +15,11 @@ body{
 
 
 
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
     background-color: white !important;
 }
 
-.swiper-pagination-bullet-active{
+.swiper-pagination-bullet-active {
     background-color: red !important;
 }
 
@@ -30,10 +30,49 @@ body{
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .no-scrollbar {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }
 
-.swiper-button-next{
-    color: red!important;
+.swiper-button-next {
+    color: red !important;
 }
+
+.table-row-shadow {
+    box-shadow: 0px 1px 13px 0px #0000000D;
+}
+
+.secondary-btn {
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    padding: 16px 48px;
+    line-height: 24px;
+    margin: 5px 0;
+}
+.primary-btn {
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #DB4444;
+    color: #FAFAFA;
+    border-radius: 4px;
+    padding: 16px 48px;
+    line-height: 24px;
+    margin: 5px 0;
+}
+
+@media screen and (max-width: 576px) {
+    .primary-btn {
+        font-size: 16px;
+        font-weight: 500;
+        background-color: #DB4444;
+        color: #FAFAFA;
+        border-radius: 4px;
+        padding: 10px 16px;
+        line-height: 24px;
+        margin: 5px 0;
+    }
+  }

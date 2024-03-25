@@ -14,8 +14,8 @@ const ProductCard = () => {
                                         className=' object-fit px-2  '
                                         src="/images/product/gamepad.png"
                                         alt="card-image"
-                                        width={170}
-                                        height={130}
+                                        width={500}
+                                        height={500}
                                     />
                                 </figure>
 
