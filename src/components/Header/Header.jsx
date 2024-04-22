@@ -39,7 +39,7 @@ const Header = () => {
                         <FaInstagram className='text-md cursor-pointer' />
                         <FaLinkedinIn className='text-md cursor-pointer' />
                     </div>
-                    <div className="flex items-center text-center text-sm md:font-bold p-1 underline underline-offset-2">
+                    <div className="flex items-center text-center text-sm md:font-bold p-1 underline underline-offset-2 cursor-pointer">
                         <TextTransition springConfig={presets.wobbly}>{TEXTS[index % TEXTS.length]}</TextTransition>
                     </div>
                     <div className="hidden md:flex items-center cursor-pointer space-x-1">
@@ -63,7 +63,7 @@ const Header = () => {
                         <ion-icon name="cart-outline" />
                     </div>
                 </div>
-                <ul className='md:flex hidden'>
+                <ul className='md:flex hidden uppercase'>
                     <li>
                         <Link href='/' className='font-normal text-base leading-6 text-[#000000] mx-3 '>Home</Link>
                         <Link href='/contact' className='mx-3 font-normal text-base leading-6 text-[#000000]'>Contact</Link>
@@ -87,10 +87,10 @@ const Header = () => {
                             </div>
                         </form>
                     </div>
-                    <div className="flex items-center space-x-2">
-                        <div className='md:flex hidden md:space-x-2'>
-                            <Link href='/wishlist' className="text-xl cursor-pointer"><ion-icon name="heart-outline" /></Link>
-                            <Link href='/cart' className="text-xl cursor-pointer"><ion-icon name="cart-outline" /></Link>
+                    <div className=" space-x-2">
+                        <div className='md:flex items-center hidden md:space-x-2'>
+                            <Link href='/wishlist' className="text-xl md:flex items-center cursor-pointer"><ion-icon name="heart-outline" /></Link>
+                            <Link href='/cart' className="text-xl md:flex items-center cursor-pointer"><ion-icon name="cart-outline" /></Link>
                         </div>
                         {!session ? (
                             <></>

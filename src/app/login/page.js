@@ -42,7 +42,7 @@ const Login = () => {
     };
 
     return (
-        <div className='my-12'>
+        <div className=''>
             <div className='grid md:grid-cols-2 items-center gap-4'>
                 <div>
                     <Image
@@ -53,7 +53,7 @@ const Login = () => {
                         priority
                     />
                 </div>
-                <div className='md:w-9/12 w-full px-5'>
+                <div className='md:w-9/12 w-full px-5 py-5'>
                     <div className=''>
                         <h1 className='text-4xl font-medium text-[#000000]'>Log in to Swift-Cart</h1>
                         <p className='text-base font-normal text-[#000000] pt-6'>Enter your details below</p>

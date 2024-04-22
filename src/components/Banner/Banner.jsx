@@ -53,7 +53,7 @@ const Banner = () => {
 
     ]
     return (
-        <div className='max-w-screen-lg mx-auto md:h-[400px]'>
+        <div className='max-w-screen-lg mx-auto'>
             <div className='md:grid md:grid-cols-5 md:mt-5'>
                 <div className="border  shadow-lg rounded-lg md:mt-4 md:me-7 md:py-2">
                     <div className=' md:block flex gap-4 overflow-x-scroll no-scrollbar px-3 md:px-0 bg-[#DB4444] md:bg-white duration-500 '>

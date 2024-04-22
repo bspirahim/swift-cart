@@ -42,7 +42,7 @@ const SignUp = () => {
 
 
     return (
-        <div className='my-12'>
+        <div className=''>
             <div className='grid md:grid-cols-2 items-center gap-4'>
                 <div>
                     <Image
@@ -56,10 +56,10 @@ const SignUp = () => {
                 <div className='md:w-9/12 w-full px-5'>
                     <div className=''>
                         <h1 className='text-4xl font-medium text-[#000000]'>Create an account</h1>
-                        <p className='text-base font-normal text-[#000000] pt-6'>Enter your details below</p>
+                        <p className='text-base font-normal text-[#000000] pt-2'>Enter your details below</p>
                     </div>
                     <form onSubmit={handleSubmit}>
-                        <div className='mt-5'>
+                        <div className='mt-3'>
                             <div className='py-2 form-control'>
                                 <input type="text" name='name' className="w-full py-2  border-b border-[#000000]/30 focus:outline-none focus:border-[#000000]" placeholder="Name" required />
                             </div>
