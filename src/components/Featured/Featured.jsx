@@ -18,7 +18,7 @@ const Featured = () => {
             </div>
             <div className="grid md:grid-cols-2 gap-4 my-5">
                 <div className='relative'>
-                    <Image width={500} height={500} className='w-full text-[#FAFAFA]' src="/images/product/frame1.jpg" alt="banner-image" />
+                    <Image width={500} height={500} className='w-full text-[#FAFAFA]' src="/images/product/Frame1.jpg" alt="banner-image" />
                     <div className='absolute bottom-7 left-7 '>
                         <p className='text-[#FAFAFA] text-2xl font-semibold'>PlayStation 5</p>
                         <p className='font-normal text-sm py-1.5 text-[#FAFAFA]'>Black and White version of the PS5 <br /> coming out on sale.</p>
@@ -38,7 +38,7 @@ const Featured = () => {
                     </div>
                     <div className='grid grid-cols-2 gap-4'>
                         <div className='relative'>
-                            <Image width={500} height={500} className='w-full text-[#FAFAFA]' src="/images/product/frame3.png" alt="banner-image" />
+                            <Image width={500} height={500} className='w-full text-[#FAFAFA]' src="/images/product/Frame3.png" alt="banner-image" />
                             <div className='absolute bottom-7 left-7 '>
                                 <p className='text-[#FAFAFA] text-2xl font-semibold'>Speakers</p>
                                 <p className='font-normal text-sm py-1 text-[#FAFAFA]'>Amazon wireless speakers</p>
