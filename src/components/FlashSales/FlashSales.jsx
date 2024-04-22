@@ -19,7 +19,7 @@ const FlashSales = () => {
     const [prevEl, setPrevEl] = useState(null)
     const [nextEl, setNextEl] = useState(null)
     return (
-        <div className='max-w-screen-lg mx-auto my-12'>
+        <div className='max-w-screen-lg mx-auto my-10 px-3 md:px-0'>
             <div className=''>
                 <div className='flex items-center gap-4'>
                     <div className='w-[20px] h-[40px] bg-[#DB4444] rounded'></div>
@@ -28,7 +28,7 @@ const FlashSales = () => {
                 <div className='flex items-center justify-between py-4'>
                     <div className='flex items-end space-x-16'>
                         <h1 className='md:font-semibold md:text-4xl'>Flash Sales</h1>
-                        <div className='flex items-center space-x-4'>
+                        <div className='md:flex items-center space-x-4 hidden'>
                             <div>
                                 <p className='text-xs font-medium text-[#000000]'>Days</p>
                                 <div className='flex'>

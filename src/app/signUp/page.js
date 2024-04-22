@@ -33,12 +33,11 @@ const SignUp = () => {
                 toast('Account Created Successfully!')
                 push('/login')
             }
-
+            
         } catch (error) {
             setError('Error, try again')
             console.log(error);
         }
-
     }
 
 
@@ -70,7 +69,7 @@ const SignUp = () => {
                             <div className='py-2 form-control'>
                                 <input type="password" name='password' className="w-full py-2  border-b border-[#000000]/30 focus:outline-none focus:border-[#000000]" placeholder="Enter Your Password" required />
                             </div>
-                            {error!="" && <p className='text-red-500 text-center mt-2'>{error}</p> }
+                            {error != "" && <p className='text-red-500 text-center mt-2'>{error}</p>}
                             <div className='mt-5'>
                                 <button className="w-full my-2  bg-[#DB4444] hover:bg-[#E07575] py-2 px-12 rounded text-[#FAFAFA] text-base font-medium">Create Account</button>
                             </div>

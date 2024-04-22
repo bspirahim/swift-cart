@@ -6,11 +6,11 @@ const Footer = () => {
     return (
         <div className='bg-[#000000]'>
             <footer className="footer py-10  text-white max-w-screen-lg mx-auto">
-                <aside>
+                <aside className=''>
                     <h1 className='text-2xl font-bold leading-6'>Swift-Cart</h1>
                     <p className='text-xl font-medium text-[#FAFAFA]'>Subscribe</p>
                     <p className='text-base font-normal text-[#FAFAFA]'>Get 10% off Your first Order</p>
-                    <div className="">
+                    <div className="w-full">
                         <div className="relative">
 
                             <input type="email" id="search" className="block w-full py-2 px-3 pe-6 rounded border text-[#F5F5F5] bg-[#000000] focus:outline-none font-normal  text-xs" placeholder="Enter Your Email" required />
@@ -75,10 +75,10 @@ const Footer = () => {
 
                     </div>
                     <div className='flex items-center justify-between space-x-6 mt-1'>
-                    <FaFacebookF className='text-xl cursor-pointer' />
-                    <FaTwitter className='text-xl cursor-pointer' />
-                    <FaInstagram className='text-xl cursor-pointer' />
-                    <FaLinkedinIn className='text-xl cursor-pointer' />
+                        <FaFacebookF className='text-xl cursor-pointer' />
+                        <FaTwitter className='text-xl cursor-pointer' />
+                        <FaInstagram className='text-xl cursor-pointer' />
+                        <FaLinkedinIn className='text-xl cursor-pointer' />
 
 
                     </div>

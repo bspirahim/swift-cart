@@ -19,7 +19,7 @@ const Categories = () => {
     const [prevEl, setPrevEl] = useState(null)
     const [nextEl, setNextEl] = useState(null)
     return (
-        <div className='max-w-screen-lg mx-auto my-12'>
+        <div className='max-w-screen-lg mx-auto my-10 px-3 md:px-0'>
             <div className=''>
                 <div className='flex items-center gap-4'>
                     <div className='w-[20px] h-[40px] bg-[#DB4444] rounded'></div>
@@ -44,7 +44,7 @@ const Categories = () => {
                     breakpoints={{
                         576: {
                           width: 576,
-                          slidesPerView: 1,
+                          slidesPerView: 2,
                           spaceBetween:20
                         },
                         768: {
@@ -73,8 +73,8 @@ const Categories = () => {
                                     className='object-fit'
                                     src="/images/category/Category-CellPhone.png"
                                     alt="category-image"
-                                    width={100}
-                                    height={100}
+                                    width={500}
+                                    height={500}
                                 />
                             </div>
                             <p className="text-base font-normal text-[#000000] mt-7">Phones</p>
@@ -87,8 +87,8 @@ const Categories = () => {
                                     className='object-fit'
                                     src="/images/category/Category-computer.png"
                                     alt="category-image"
-                                    width={100}
-                                    height={100}
+                                    width={500}
+                                    height={500}
                                 />
                             </div>
                             <p className="text-base font-normal text-[#000000] mt-7">Computer</p>
@@ -101,8 +101,8 @@ const Categories = () => {
                                     className='object-fit'
                                     src="/images/category/Category-SmartWatch.png"
                                     alt="category-image"
-                                    width={100}
-                                    height={100}
+                                    width={500}
+                                    height={500}
                                 />
                             </div>
                             <p className="text-base font-normal text-[#000000] mt-7">Stopwatch</p>
@@ -115,8 +115,8 @@ const Categories = () => {
                                     className='object-fit'
                                     src="/images/category/Category-Camera.png"
                                     alt="category-image"
-                                    width={100}
-                                    height={100}
+                                    width={500}
+                                    height={500}
                                 />
                             </div>
                             <p className="text-base font-normal text-[#000000] mt-7">Camera</p>
@@ -129,22 +129,22 @@ const Categories = () => {
                                     className='object-fit'
                                     src="/images/category/Category-HeadPhone.png"
                                     alt="category-image"
-                                    width={100}
-                                    height={100}
+                                    width={500}
+                                    height={500}
                                 />
                             </div>
                             <p className="text-base font-normal text-[#000000] mt-7">HeadPhone</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="border border-[#000000]/30 transition ease-in-out hover:-translate-y-1 hover:scale-90 w-full h-[130px] rounded my-5 mb-10 cursor-pointer hover:shadow-lg duration-300">
+                        <div className="border border-[#000000]/30 transition ease-in-out hover:-translate-y-1 hover:scale-90 w-full h-[130px] rounded text-center my-5 mb-10 cursor-pointer hover:shadow-lg duration-300">
                             <div className="w-14 h-14 m-auto py-6">
                                 <Image
                                     className='object-fit'
                                     src="/images/category/Category-GamePad.png"
                                     alt="category-image"
-                                    width={100}
-                                    height={100}
+                                    width={500}
+                                    height={500}
                                 />
                             </div>
                             <p className="text-base font-normal text-[#000000] mt-7 text-center">Gaming</p>
@@ -157,8 +157,8 @@ const Categories = () => {
                                     className='object-fit'
                                     src="/images/category/Category-CellPhone.png"
                                     alt="category-image"
-                                    width={100}
-                                    height={100}
+                                    width={500}
+                                    height={500}
                                 />
                             <p className="text-base font-normal text-[#000000] mt-2">Phones</p>
                             </div>

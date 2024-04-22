@@ -6,7 +6,7 @@ import Rating from 'react-rating';
 
 const ThisMonthProduct = () => {
     return (
-        <div className='max-w-screen-lg mx-auto'>
+        <div className='max-w-screen-lg mx-auto px-3 md:px-0'>
             <div className=''>
                 <div className='flex items-center gap-4'>
                     <div className='w-[20px] h-[40px] bg-[#DB4444] rounded'></div>

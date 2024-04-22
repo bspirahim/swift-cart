@@ -32,7 +32,7 @@ const ProductCard = () => {
                             <div>
                                 <div className="absolute top-0 end-0 m-3 rounded-full">
                                     <div className=''>
-                                        <p className='bg-[#FAFAFA] p-1  rounded-full w-6 h-6 mb-2' >
+                                        <p className='bg-[#FAFAFA] p-1  rounded-full w-6 h-6 mb-2 cursor-pointer' >
                                             <ion-icon name="heart-outline" />
                                         </p>
                                         <p className='bg-[#FAFAFA] p-1 rounded-full w-6 h-6'><ion-icon name="eye-outline" /></p>

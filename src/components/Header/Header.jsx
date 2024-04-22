@@ -1,10 +1,13 @@
 'use client';
 
-import { FaCaretDown, FaRegUser } from "react-icons/fa";
+import { FaCaretDown, FaFacebookF, FaInstagram, FaLinkedinIn, FaRegUser, FaTwitter } from "react-icons/fa";
 import Image from 'next/image';
-import { useState } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { signOut, useSession } from "next-auth/react";
+import TextTransition, { presets } from 'react-text-transition';
+
+const TEXTS = ['Free Shipping for All orders valued at $200+', 'Download our mobile app for exclusive offers, notifications, and real time order updates'];
 
 const Header = () => {
     const [open, setOpen] = useState(false);
@@ -16,8 +19,35 @@ const Header = () => {
         setIsOpen(!isOpen);
     };
 
+    const [index, setIndex] = React.useState(0);
+
+    React.useEffect(() => {
+        const intervalId = setInterval(
+            () => setIndex((index) => index + 1),
+            3000, // every 3 seconds
+        );
+        return () => clearTimeout(intervalId);
+    }, []);
+
     return (
         <nav className='shadow-sm '>
+            <div className="bg-[#DB4444] md:py-2.5 py-3 hidden md:block">
+                <div className="max-w-screen-lg mx-auto text-[#FAFAFA] md:flex items-center justify-between">
+                    <div className='md:flex items-center hidden space-x-2'>
+                        <FaFacebookF className='text-md cursor-pointer' />
+                        <FaTwitter className='text-md cursor-pointer' />
+                        <FaInstagram className='text-md cursor-pointer' />
+                        <FaLinkedinIn className='text-md cursor-pointer' />
+                    </div>
+                    <div className="flex items-center text-center text-sm md:font-bold p-1 underline underline-offset-2">
+                        <TextTransition springConfig={presets.wobbly}>{TEXTS[index % TEXTS.length]}</TextTransition>
+                    </div>
+                    <div className="hidden md:flex items-center cursor-pointer space-x-1">
+                        <p className="text-sm">Bangladesh(USD$)</p>
+                        <ion-icon name="chevron-down-outline" />
+                    </div>
+                </div>
+            </div>
             <div className='md:flex items-center justify-between  py-3 max-w-screen-lg mx-auto px-3 md:px-0'>
 
                 <div className='flex items-center justify-between gap-x-2'>
@@ -48,7 +78,7 @@ const Header = () => {
                             <label htmlFor="search" className="mb-2 text-sm font-medium text-black sr-only dark:text-white">Search</label>
                             <div className="relative">
 
-                                <input type="search" id="search" className="block w-full py-2 px-3 pe-6 rounded text-[#000000] bg-[#F5F5F5] focus:outline-none font-normal  text-xs" placeholder="What are you loking for?" required />
+                                <input type="text" id="search" className="block w-full py-2 px-3 pe-6 rounded text-[#000000] bg-[#F5F5F5] focus:outline-none font-normal  text-xs" placeholder="What are you loking for?" required />
 
                                 <div className="absolute inset-y-0 end-0 flex items-center pe-3 pointer-events-none ">
                                     <ion-icon name="search-outline" />
@@ -66,7 +96,6 @@ const Header = () => {
                             <></>
                         ) : (
                             <>
-
                                 <div className="space-x-2">
 
                                     <div className="relative inline-block text-left">
@@ -87,7 +116,7 @@ const Header = () => {
                                                 <div className="py-1" role="none">
                                                     {/* Dropdown items */}
                                                     <Link
-                                                        href="#"
+                                                        href="/profile"
                                                         className="flex items-center  px-4 py-1  text-sm font-normal text-[#FAFAFA] gap-2"
                                                         role="menuitem"
                                                     >

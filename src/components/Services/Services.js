@@ -3,7 +3,7 @@ import React from 'react';
 
 const Services = () => {
     return (
-        <div className='max-w-screen-lg mx-auto'>
+        <div className='max-w-screen-lg mx-auto px-3 md-px-0'>
             <div className='md:flex justify-around items-center md:mt-32 mb-24'>
                 <div className='text-center '>
                     <div className='flex justify-center items-center '>
